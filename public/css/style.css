@@ -1,0 +1,138 @@
+/* Navbar styling */
+.navbar-nav {
+    display: flex;
+    flex-direction: row; /* Membuat menu navigasi horizontal */
+    gap: 15px; /* Memberi jarak antar item */
+}
+
+.nav-item {
+    list-style: none; /* Hilangkan bullet */
+}
+
+.nav-link {
+    text-decoration: none; /* Hilangkan garis bawah */
+    padding: 10px 15px; /* Memberi ruang dalam item menu */
+    color: #007bff; /* Warna teks biru */
+    font-weight: bold; /* Teks tebal */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Animasi saat hover */
+}
+
+.nav-link:hover {
+    background-color: #f8f9fa; /* Warna latar saat hover */
+    color: #000000; /* Ubah warna teks saat hover */
+    border-radius: 5px; /* Membuat sudut membulat */
+}
+
+/* Styling tambahan untuk tampilan lebih baik */
+.navbar {
+    background-color: #e3f2fd; /* Warna latar belakang navbar */
+    padding: 10px 20px; /* Memberi ruang di dalam navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek elegan */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Ukuran font nama aplikasi */
+    font-weight: bold;
+    color: #007bff; /* Warna teks brand */
+}
+
+.navbar-brand:hover {
+    color: #0056b3; /* Warna teks brand saat hover */
+    text-decoration: none; /* Hilangkan garis bawah saat hover */
+}
+
+
+/* Navbar background */
+.navbar {
+    background-color: #add8e6; /* Warna biru muda */
+}
+
+/* Table section style */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4a460; /* Warna oranye terang */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Efek hover */
+}
+
+/* Header style */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Container utama form */
+.form-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul form */
+.form-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #333;
+}
+
+/* Grup input */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/* Label */
+.form-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+/* Input */
+.form-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Tombol simpan */
+.form-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #0056b3;
+}
+
